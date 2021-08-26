@@ -1,0 +1,13 @@
+E = {0,2,4,6,8}
+N = {1,2,3,4,5}
+set1 = E.union(N)
+print(set1)
+set2 = E.intersection(N)
+print(set2)
+set3 = E.difference(N)
+print(set3)
+set4 = set1.difference(set2)
+print(set4)
+
+
+
